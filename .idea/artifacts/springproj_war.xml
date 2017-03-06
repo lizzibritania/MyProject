@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springproj:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hellogwt.war">
+      <element id="artifact" artifact-name="springproj:war exploded" />
+    </root>
+  </artifact>
+</component>

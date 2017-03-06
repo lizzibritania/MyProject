@@ -1,0 +1,23 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <g:VerticalPanel  >
+        <g:HorizontalPanel>
+            <g:Label text="Enter your name:" width="100"/>
+            <g:TextBox ui:field="NameTextBox" width="150"/>
+        </g:HorizontalPanel>
+
+        <g:HorizontalPanel>
+            <g:Label text="Enter your address:" width="100"/>
+            <g:TextBox ui:field="AddressTextBox" width="150"/>
+        </g:HorizontalPanel>
+
+        <g:HorizontalPanel>
+            <g:Button ui:field="addButton" text="Order now" width="100"/>
+
+        </g:HorizontalPanel>
+
+        <g:FlexTable ui:field="greetingsFlexTable"/>
+    </g:VerticalPanel>
+
+</ui:UiBinder>
